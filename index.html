@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#351923"><meta name="description" content="TIMELESS — Time is Your Signature. Discover a watch that defines your style.">
+  <title>TIMELESS </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="loading">
+  <div class="preloader" id="preloader" role="status" aria-live="polite" aria-label="Loading TIMELESS">
+    <div class="pl-glow" aria-hidden="true"></div>
+    <div class="pl-content">
+      <div class="pl-watch" aria-hidden="true">
+        <svg class="pl-svg" viewBox="0 0 200 300" focusable="false">
+          <defs>
+            <linearGradient id="plMetal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F1E9E3"/><stop offset=".5" stop-color="#A8A2A0"/><stop offset="1" stop-color="#713B4B"/></linearGradient>
+            <linearGradient id="plStrap" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4b2432"/><stop offset=".5" stop-color="#713B4B"/><stop offset="1" stop-color="#4b2432"/></linearGradient>
+            <linearGradient id="plFadeG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".26" stop-color="#fff"/><stop offset=".74" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+            <mask id="plFade" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="300"><rect width="200" height="300" fill="url(#plFadeG)"/></mask>
+            <radialGradient id="plDial" cx=".38" cy=".3" r=".9"><stop offset="0" stop-color="#5a2f3f"/><stop offset="1" stop-color="#26111a"/></radialGradient>
+            <linearGradient id="plGlass" x1="0" y1="0" x2=".7" y2=".7"><stop offset="0" stop-color="#fff" stop-opacity=".18"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/></linearGradient>
+          </defs>
+         
+          <g mask="url(#plFade)">
+            <path d="M76 0H124V104H76Z" fill="url(#plStrap)"/><path d="M76 196H124V300H76Z" fill="url(#plStrap)"/>
+            <path d="M84 0V104M116 0V104M84 196V300M116 196V300" fill="none" stroke="#F1E9E3" stroke-opacity=".28" stroke-width=".8" stroke-dasharray="3 3.5"/>
+          </g>
+          <!-- crown -->
+          <rect x="169" y="141" width="10" height="18" rx="2.5" fill="url(#plMetal)"/>
+          <path d="M172 144v12M175 144v12" stroke="#351923" stroke-opacity=".5" stroke-width=".8"/>
+          <!-- case + progress ring -->
+          <circle cx="100" cy="150" r="70" fill="#2b141d" stroke="url(#plMetal)" stroke-width="3"/>
+          <circle cx="100" cy="150" r="64" fill="none" stroke="#F1E9E3" stroke-opacity=".12" stroke-width="2"/>
+          <circle id="plRing" class="pl-ring" cx="100" cy="150" r="64" fill="none" stroke="#d8a3b3" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="402.12" stroke-dashoffset="402.12" transform="rotate(-90 100 150)"/>
+          <!-- dial -->
+          <circle cx="100" cy="150" r="61" fill="url(#plDial)"/>
+          <circle cx="100" cy="150" r="58" fill="none" stroke="#F1E9E3" stroke-opacity=".5" stroke-width="4" stroke-dasharray="1 5.07" stroke-dashoffset=".5" transform="rotate(-90 100 150)"/>
+          <circle cx="100" cy="150" r="50" fill="none" stroke="#F1E9E3" stroke-opacity=".95" stroke-width="8" stroke-dasharray="2.2 23.98" stroke-dashoffset="1.1" transform="rotate(-90 100 150)"/>
+          <text class="pl-dial-brand" x="100" y="127" text-anchor="middle">TIMELESS</text>
+          <text class="pl-dial-sub" x="100" y="176" text-anchor="middle">AUTOMATIC</text>
+          <rect x="116" y="144" width="26" height="12" rx="1.6" fill="#F1E9E3" fill-opacity=".94"/>
+          <text id="plPercent" class="pl-date-num" x="129" y="152.7" text-anchor="middle">00</text>
+          <!-- hands at 10:10, seconds sweep -->
+          <g class="pl-hand pl-hour"><polygon points="97.4 157 100 110 102.6 157" fill="#F1E9E3"/></g>
+          <g class="pl-hand pl-minute"><polygon points="98.5 157 100 94 101.5 157" fill="#E7D7D0"/></g>
+          <g class="pl-hand pl-second"><line x1="100" y1="168" x2="100" y2="92" stroke="#e3a9b8" stroke-width=".9"/></g>
+          <circle cx="100" cy="150" r="3.4" fill="#713B4B" stroke="#F1E9E3" stroke-width="1"/>
+          <circle cx="100" cy="150" r="61" fill="url(#plGlass)"/>
+        </svg>
+      </div>
+      <div class="pl-brand">TIMELESS</div>
+      <div class="pl-tagline">TIME IS YOUR SIGNATURE</div>
+    </div>
+  </div>
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="#home" aria-label="TIMELESS home"><span class="brand-mark">T<span>.</span></span><span>TIMELESS<small>TIME IS YOUR SIGNATURE</small></span></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#all-watches">All Watches</a><a href="#men" data-filter-gender="Men">Men</a><a href="#women" data-filter-gender="Women">Women</a><a href="#new-arrivals">New Arrivals</a><a href="#best-sellers">Best Sellers</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button" id="searchToggle" aria-label="Open search"><i class="fa-solid fa-magnifying-glass"></i></button>
+      <button class="icon-button favorite-header" id="favoritesOpen" aria-label="Open favorites"><i class="fa-regular fa-heart"></i><span class="count-badge" id="favoriteCount">0</span></button>
+      <button class="truck-button" id="cartOpen" aria-label="Open shopping bag, 0 items">
+        <svg class="truck-svg" viewBox="0 0 112 54" aria-hidden="true">
+          <rect x="3" y="12" width="66" height="34" rx="4" fill="#F1E9E3" stroke="#A8A2A0" stroke-width="1.4"/>
+          <rect x="69" y="22" width="25" height="24" rx="3" fill="#713B4B" stroke="#F1E9E3" stroke-width="1.2"/>
+          <path d="M94 28h9l7 9v9H94z" fill="#713B4B" stroke="#F1E9E3" stroke-width="1.2"/>
+          <path d="M97 30h5l4 6h-9z" fill="#A8A2A0"/>
+          <text x="36" y="32" text-anchor="middle" font-size="10" font-family="Inter, sans-serif" font-weight="700" fill="#351923">TIMELESS</text>
+          <circle cx="24" cy="46" r="7" fill="#151316" stroke="#A8A2A0" stroke-width="2"/><circle cx="24" cy="46" r="2.4" fill="#F1E9E3"/>
+          <circle cx="83" cy="46" r="7" fill="#151316" stroke="#A8A2A0" stroke-width="2"/><circle cx="83" cy="46" r="2.4" fill="#F1E9E3"/>
+          <rect class="cargo-door" x="7" y="16" width="57" height="26" rx="2" fill="none" stroke="#713B4B" stroke-width="1.5"/>
+        </svg><span class="count-badge truck-count" id="cartCount">0</span>
+      </button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <a href="#home">Home</a><a href="#all-watches">All Watches</a><a href="#men" data-filter-gender="Men">Men's Collection</a><a href="#women" data-filter-gender="Women">Women's Collection</a><a href="#new-arrivals">New Arrivals</a><a href="#best-sellers">Best Sellers</a>
+      <button id="mobileFavorites"><i class="fa-regular fa-heart"></i> Favorites</button><button id="mobileCart"><i class="fa-solid fa-truck-fast"></i> Shopping bag</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <video class="hero-video" id="heroVideo" autoplay muted loop playsinline webkit-playsinline preload="auto" disablepictureinpicture disableremoteplayback poster="assets/images/hero-poster.svg" aria-hidden="true">
+        <source src="img/834993863_1792076578176458.mp4" type="video/mp4"></video>
+      <div class="hero-fallback"></div><div class="hero-overlay"></div>
+      <div class="hero-content wrap">
+        <p class="eyebrow hero-eyebrow">TIMELESS WATCH COLLECTION</p>
+        <h1>Time is Your <em>Signature.</em></h1>
+        <p class="hero-copy">Every moment has a style. Discover the watch that defines yours.</p>
+        <div class="hero-buttons"><a class="button button-primary" href="#featured">Discover Collection <i class="fa-solid fa-arrow-right"></i></a><a class="button button-outline" href="#all-watches">Shop Now</a></div>
+      </div>
+      </section>
+
+    <section class="section featured-section" id="featured"><div class="wrap">
+      <div class="section-heading"><div><p class="eyebrow">A CURATED EDIT</p><h2>Featured <em>Watches</em></h2></div><p>Three considered designs.<br>One unmistakable point of view.</p></div>
+      <div class="featured-grid" id="featuredGrid"></div>
+    </div></section>
+
+    <section class="section carousel-section dark-section" id="new-arrivals"><div class="wrap">
+      <div class="section-heading light-heading"><div><p class="eyebrow">JUST ARRIVED</p><h2>New <em>Arrivals</em></h2></div><div class="carousel-controls"><button class="carousel-arrow" data-target="newTrack" data-dir="-1" aria-label="Previous new arrivals"><i class="fa-solid fa-arrow-left"></i></button><button class="carousel-arrow" data-target="newTrack" data-dir="1" aria-label="Next new arrivals"><i class="fa-solid fa-arrow-right"></i></button></div></div>
+      <div class="carousel-viewport"><div class="product-track" id="newTrack"></div></div>
+    </div></section>
+
+    <section class="section carousel-section" id="best-sellers"><div class="wrap">
+      <div class="section-heading"><div><p class="eyebrow">THE TIMELESS EDIT</p><h2>Best <em>Sellers</em></h2><p class="section-note">Our hand-picked demo selection.</p></div><div class="carousel-controls"><button class="carousel-arrow" data-target="bestTrack" data-dir="-1" aria-label="Previous selected watches"><i class="fa-solid fa-arrow-left"></i></button><button class="carousel-arrow" data-target="bestTrack" data-dir="1" aria-label="Next selected watches"><i class="fa-solid fa-arrow-right"></i></button></div></div>
+      <div class="carousel-viewport"><div class="product-track" id="bestTrack"></div></div>
+    </div></section>
+
+    <section class="section catalog-section" id="all-watches"><div class="wrap">
+      <div class="section-heading catalog-heading"><div><p class="eyebrow">FIND YOUR TIMEPIECE</p><h2>The <em>Collection</em></h2></div><span class="result-count" id="resultCount">16 watches</span></div>
+      <div class="filter-panel">
+        <label class="search-field"><i class="fa-solid fa-magnifying-glass"></i><input id="searchInput" type="search" placeholder="Search watches, styles, categories…" aria-label="Search watches"></label>
+        <select id="genderFilter" aria-label="Filter by gender"><option value="">All collections</option><option value="Men">Men</option><option value="Women">Women</option></select>
+        <select id="categoryFilter" aria-label="Filter by category"><option value="">All categories</option></select>
+        <select id="dialFilter" aria-label="Filter by dial color"><option value="">All dial colors</option><option>Black</option><option>Navy</option><option>Cream</option><option>White</option><option>Silver</option></select>
+        <select id="sortFilter" aria-label="Sort watches"><option value="featured">Featured first</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option><option value="az">Name: A to Z</option></select>
+        <div class="price-filter"><label for="maxPrice">Up to <strong id="maxPriceLabel">2,000 EGP</strong></label><input id="maxPrice" type="range" min="500" max="2000" step="50" value="2000"></div>
+        <button class="text-button" id="resetFilters">Reset filters</button>
+      </div>
+      <div class="catalog-grid" id="catalogGrid"></div><p class="empty-results" id="emptyResults" hidden>No watches match those filters. Try adjusting your search.</p>
+    </div></section>
+
+    <section class="collection-split">
+      <a class="collection-panel men-panel" id="men" href="#all-watches" data-collection="Men"><span class="eyebrow">FOR HIM</span><h2>His kind<br>of <em>classic.</em></h2><span class="collection-link">Explore men's watches <i class="fa-solid fa-arrow-right"></i></span></a>
+      <a class="collection-panel women-panel" id="women" href="#all-watches" data-collection="Women"><span class="eyebrow">FOR HER</span><h2>Her own<br><em>moment.</em></h2><span class="collection-link">Explore women's watches <i class="fa-solid fa-arrow-right"></i></span></a>
+    </section>
+
+    <section class="story-section section"><div class="wrap story-grid">
+      <div class="story-image"><img src="https://images.unsplash.com/photo-1508057198894-247b23fe5ade?auto=format&fit=crop&w=1200&q=85" alt="Close-up of a watch styled in a calm editorial setting" loading="lazy" onerror="this.style.display='none'"><span class="story-stamp">T / TIMELESS</span></div>
+      <div class="story-copy"><p class="eyebrow">THE TIMELESS POINT OF VIEW</p><h2>More Than<br>a <em>Watch.</em></h2><p>A thoughtful detail can change the way a moment feels. Discover timeless designs made to complement your everyday style.</p><a class="underlined-link" href="#all-watches">Find your signature <i class="fa-solid fa-arrow-right"></i></a></div>
+    </div></section>
+
+    <section class="editorial-banner"><div class="wrap banner-content"><p class="eyebrow">YOUR NEXT EVERYDAY ESSENTIAL</p><h2>Find Your Everyday <em>Classic.</em></h2><p>Explore designs for every mood, moment, and personal style.</p><a class="button button-cream" href="#all-watches">Explore All Watches <i class="fa-solid fa-arrow-right"></i></a></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="wrap footer-grid">
+    <div class="footer-brand"><a class="brand" href="#home"><span class="brand-mark">T<span>.</span></span><span>TIMELESS<small>TIME IS YOUR SIGNATURE</small></span></a><p>Thoughtful timepieces for the moments that make you, you.</p></div>
+    <div><h3>Explore</h3><a href="#all-watches">All Watches</a><a href="#men">Men's Collection</a><a href="#women">Women's Collection</a></div>
+    <div><h3>The Edit</h3><a href="#new-arrivals">New Arrivals</a><a href="#best-sellers">Best Sellers</a><a href="#featured">Featured Watches</a></div>
+    <div><h3>Get in Touch</h3><p class="placeholder-note">Contact details to be configured.</p><div class="social-links"><a href="#" aria-label="Instagram placeholder" title="Instagram placeholder" class="placeholder-link"><i class="fa-brands fa-instagram"></i></a><a href="#" aria-label="Facebook placeholder" title="Facebook placeholder" class="placeholder-link"><i class="fa-brands fa-facebook-f"></i></a><a href="#" aria-label="Pinterest placeholder" title="Pinterest placeholder" class="placeholder-link"><i class="fa-brands fa-pinterest-p"></i></a></div><small>Social links are placeholders.</small></div>
+  </div><div class="wrap footer-bottom"><span>© <span id="year"></span> TIMELESS. Demo project.</span><span>Made for the love of good design.</span></div></footer>
+
+  <div class="overlay" id="overlay"></div>
+  <aside class="drawer cart-drawer" id="cartDrawer" aria-label="Shopping bag" aria-hidden="true"><div class="drawer-header"><div><p class="eyebrow">YOUR SELECTION</p><h2>Shopping Bag <span id="drawerCartCount">(0)</span></h2></div><button class="close-button" data-close aria-label="Close shopping bag"><i class="fa-solid fa-xmark"></i></button></div><div class="drawer-body" id="cartItems"></div><div class="drawer-footer" id="cartFooter"></div></aside>
+  <aside class="drawer favorites-drawer" id="favoritesDrawer" aria-label="Favorites" aria-hidden="true"><div class="drawer-header"><div><p class="eyebrow">SAVED FOR LATER</p><h2>Your Favorites</h2></div><button class="close-button" data-close aria-label="Close favorites"><i class="fa-solid fa-xmark"></i></button></div><div class="drawer-body" id="favoriteItems"></div></aside>
+
+  <div class="modal-backdrop" id="quickViewBackdrop" hidden><section class="quick-modal" role="dialog" aria-modal="true" aria-labelledby="quickName"><button class="close-button modal-close" id="quickClose" aria-label="Close product details"><i class="fa-solid fa-xmark"></i></button><div id="quickContent"></div></section></div>
+  <div class="modal-backdrop" id="checkoutBackdrop" hidden><section class="checkout-modal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle"><button class="close-button modal-close" id="checkoutClose" aria-label="Close demo checkout"><i class="fa-solid fa-xmark"></i></button><p class="eyebrow">DEMO EXPERIENCE</p><h2 id="checkoutTitle">Checkout preview</h2><p>This is a front-end demonstration only. No payment will be collected and no real order will be placed.</p><div id="checkoutSummary"></div><label class="demo-check"><input type="checkbox" id="demoConfirm"> I understand this is a demo checkout.</label><button class="button button-primary full-button" id="demoPlaceOrder" disabled>Complete demo <i class="fa-solid fa-arrow-right"></i></button></section></div>
+  <div class="toast-region" id="toastRegion" aria-live="polite" aria-atomic="true"></div>
+  <div class="parcel-flyer" id="parcelFlyer" aria-hidden="true"><i class="fa-solid fa-box"></i></div>
+  <script src="js/config.js"></script><script src="js/main.js"></script>
+</body></html>
